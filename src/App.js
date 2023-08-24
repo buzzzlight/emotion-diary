@@ -96,6 +96,7 @@ function App() {
   // console.log(new Date().getTime());
 
   const dataId = useRef(0);
+  console.log(dataId.current);
 
   //CREATE
   const onCreate = (date, content, emotion) => {
